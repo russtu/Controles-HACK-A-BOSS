@@ -1,0 +1,10 @@
+#reloj {
+    color: white;
+    background-color: turquoise;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-style: italic;
+}

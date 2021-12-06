@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evaluacion 1 HTML</title>
+</head>
+
+<body>
+  <header>
+    <h1>Debrable</h1>
+    <nav>
+      <a href="#top-films">Mi TOP 10 películas</a>
+      <a href="#japan-travel">Mi viaje a Japón</a>
+      <a href="#messages">Mándame un mensaje</a>
+    </nav>
+  </header>
+  <main>
+    <section id="top-films">
+      <h2>MI TOP 10 PELÍCULAS</h2>
+      <ol>
+        <li>El padrino</li>
+        <li>La lista de Schindler</li>
+        <li>El padrino. Parte II</li>
+        <li>Cadena perpetua</li>
+        <li>Pulp Fiction</li>
+        <li>El Rey León</li>
+        <li>Forrest Gump</li>
+        <li>La vida es bella</li>
+        <li>Gladiator</li>
+        <li>Coco</li>
+      </ol>
+    </section>
+    <section id="japan-travel">
+      <h2>MI VIAJE A JAPÓN</h2>
+      <img src="/images/japan-street.jpg" alt="Foto de un mercado japonés">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis neque at vulputate efficitur.
+        Phasellus eleifend aliquam gravida. Nullam ultricies eu dui ut tempor. Suspendisse quis nulla malesuada,
+        vehicula mi facilisis, rutrum ipsum. Duis congue, tortor sit amet cursus convallis, nisi dolor tristique massa,
+        ac tincidunt libero odio sit amet sem. Suspendisse porta faucibus mauris non aliquet. Morbi vitae eros ante. Sed
+        a sodales felis. Quisque felis magna, congue vitae tempor finibus, placerat sit amet purus. Morbi sit amet
+        ligula ut felis pretium tincidunt at eu metus. Nullam congue odio sit amet mauris egestas, sit amet feugiat nibh
+        hendrerit. Nullam molestie, ante a efficitur gravida, nisi arcu rutrum arcu, sed blandit libero enim laoreet
+        enim. Maecenas ut purus diam. Sed erat sapien, convallis non euismod eu, eleifend ac odio. Vivamus tempor eros a
+        diam congue, convallis malesuada metus placerat.
+        Nam accumsan odio quis arcu tempor iaculis. Sed et finibus erat. Etiam sit amet purus pharetra, pellentesque
+        enim mattis, commodo purus. In hac habitasse platea dictumst. Etiam molestie ante dui, non varius libero
+        lobortis sed. Praesent dapibus condimentum ultrices. Suspendisse porta, nunc at maximus ornare, lectus lorem
+        facilisis lectus, ut lacinia nunc massa a mauris. Nam pulvinar quis lacus at laoreet. Phasellus malesuada lacus
+        ligula, vitae ornare ipsum eleifend ut. Donec id eros a purus rhoncus commodo. Aliquam in lobortis ligula, quis
+        fringilla est. Maecenas tristique id urna ac facilisis. Phasellus fermentum augue purus, quis consectetur risus
+        laoreet vel.
+      </p>
+    </section>
+    <aside>
+      <img src="/images/user-debras.jpg" alt="Foto de Usuario">
+      <h1>DEBRA SMITH</h1>
+      <p>Aquí escribo todo lo que se me ocurre</p>
+      <a href="">debra.smith@example.com</a>
+    </aside>
+
+    <section id="messages">
+      <h2>MANDAME UN MENSAJE</h2>
+      <form action="/" method="post">
+        <ul>
+          <li>
+            <label for="nombre">
+              Nombre
+              <input type="text" id="nombre" required name="nombre" placeholder="Escribe aqui">
+            </label>
+          </li>
+          <li>
+            <label for="email">
+              Email:
+              <input type="email" id="email" required name="direccion" placeholder="Escribe aqui..">
+            </label>
+          </li>
+          <li>
+            <label for="fecha-nacimiento">
+              Fecha de nacimiento
+              <input type="date" id="fecha-nacimiento" required name="fecha-nacimiento">
+            </label>
+          </li>
+          <li>
+            <label for="comentarios">
+              Comentarios
+              <textarea name="comentarios" id="comentarios" cols="30" rows="4" placeholder="Escribe aqui.."></textarea>
+            </label>
+          </li>
+          <li>
+            <label for="subscribe">
+              <input type="checkbox" id="subscribe" name="subscribe">
+              Suscribirse a newsletter
+            </label>
+          </li>
+        </ul>
+        <button type="submit">Enviar</button>
+      </form>
+  </main>
+  </section>
+  <footer id="legal">
+    <a href="/">Términos y condiciones | Política de privacidad</a>
+  </footer>
+</body>
+
+</html>
